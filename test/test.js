@@ -1,8 +1,6 @@
-'use strict';
-
-var cyrillicToTranslit = require('..');
-var assert = require('assert');
-var should = require('should');
+import cyrillicToTranslit from '../CyrillicToTranslit.js'
+import assert from 'assert'
+import should from 'should'
 
 describe('cyrillicToTranslit', () => {
   it('cyrillicToTranslit should return an object with 1 public method transform', () => {

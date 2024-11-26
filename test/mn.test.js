@@ -1,7 +1,5 @@
-"use strict"
-
-const assert = require("assert");
-const CyrillicToTranslit = require("../CyrillicToTranslit");
+import assert from 'assert'
+import CyrillicToTranslit from '../CyrillicToTranslit.js'
 
 describe("mn", () => {
   it("test ө ү й", () => {

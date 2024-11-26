@@ -1,7 +1,6 @@
-﻿'use strict';
+﻿import invert from 'lodash-es/invert.js'
 
-module.exports = function cyrillicToTranslit(config) {
-  const invert = require('lodash.invert');
+export default function cyrillicToTranslit(config) {
   const _preset = config ? config.preset : "ru";
 
   /*
